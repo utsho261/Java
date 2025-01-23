@@ -1,0 +1,28 @@
+﻿Task 1
+Practice variables, input/output, and basic operations.
+Task:
+* Write a program that takes two integers as input.
+* Perform addition, subtraction, multiplication, division, and modulus operations.
+* Display the results for each operation.
+
+
+
+
+Task 2
+Learn decision-making structures.
+Task:
+* Write a program to check if a given number is positive, negative, or zero.
+* Print an appropriate message.
+
+
+Task 3
+Understand loops (for and while).
+Task:
+* Write a program to print all even numbers between 1 and 20 using a for loop.
+* Bonus: Use a while loop to print odd numbers in the same range.
+Task 4
+Introduce arrays and loops.
+Task:
+* Create an array of 5 integers.
+* Use a loop to take input for the array.
+* Find the sum and average of the array elements.
