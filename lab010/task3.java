@@ -3,7 +3,6 @@ package lab010;
 Populate an ArrayList&lt;Integer&gt;. Now find the maximum and minimum of the list.
  */
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Scanner;
 
 public class task3 {
@@ -17,10 +16,19 @@ public class task3 {
             numbers.add(sc.nextInt());
         }
 
-        int max = Collections.max(numbers);
-        int min = Collections.min(numbers);
-
+        int max = numbers.get(0);
+        int min = numbers.get(0);
         System.out.println("List: "+numbers);
+
+        for(int num : numbers){
+            if(num > max)
+                max = num;
+        }
+
+        for(int num : numbers){
+            if(num < min)
+                min = num;
+        }
         System.out.println("Max: "+max);
         System.out.println("Min: "+min);
 
