@@ -1,4 +1,9 @@
 package lab07;
+/*
+Take a number as input for withdrawing the money from the bank.
+If the number is greater than deposit money, then throw an object
+of class InsufficientMoneyException. Create custom exception
+class InsufficientMoneyException.*/
 
 import java.util.Scanner;
 
