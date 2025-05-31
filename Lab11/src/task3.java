@@ -1,7 +1,7 @@
 /*
 Input: A string
 Task: Determine if all 5 vowels are present in the string (a, e, i, o, u).
-Example: &quot;education&quot; → All vowels present.
+Example: education → All vowels present.
  */
 public class task3 {
    public static void main(String[] args) {
