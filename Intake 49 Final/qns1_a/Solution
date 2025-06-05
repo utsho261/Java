@@ -1,0 +1,16 @@
+(a) In how many ways thread classes can be created? Explain with examples.
+Solution:
+1. Extend Thread class:
+    class MyThread extends Thread {
+        public void run() {
+            System.out.println("Thread running");
+        }
+    }
+2. Implement Runnable interface:
+    class MyRunnable implements Runnable {
+        public void run() {
+            System.out.println("Runnable running");
+        }
+    }
+3. Using Lambda:
+    Thread t = new Thread(() -> System.out.println("Lambda Thread"));
